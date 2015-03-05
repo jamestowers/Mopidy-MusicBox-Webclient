@@ -2,6 +2,6 @@ include AUTHORS
 include LICENSE
 include MANIFEST.in
 include README.rst
-include mopidy_musicbox_webclient/ext.conf
+include mopidy_spintune/ext.conf
 
-recursive-include mopidy_musicbox_webclient/static *
+recursive-include mopidy_spintune/static *

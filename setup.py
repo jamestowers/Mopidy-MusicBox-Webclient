@@ -12,13 +12,13 @@ def get_version(filename):
 
 
 setup(
-    name='Mopidy-MusicBox-Webclient',
-    version=get_version('mopidy_musicbox_webclient/__init__.py'),
-    url='https://github.com/woutervanwijk/mopidy-musicbox-webclient',
+    name='Mopidy-Spintune',
+    version=get_version('mopidy_spintune/__init__.py'),
+    url='https://github.com/jamestowers/mopidy-musicbox-webclient',
     license='GNU General Public License v3 (GPLv3)',
-    author='Wouter van Wijk',
-    author_email='woutervanwijk@gmail.com',
-    description='Mopidy MusicBox web extension',
+    author='James Towers',
+    author_email='james@songdrop.com',
+    description='Mopidy Spintune web extension',
     long_description=open('README.rst').read(),
     packages=find_packages(),
     zip_safe=False,
@@ -29,7 +29,7 @@ setup(
     ],
     entry_points={
         'mopidy.ext': [
-            'musicbox_webclient = mopidy_musicbox_webclient:MusicBoxExtension',
+            'spintune = mopidy_spintune:MusicBoxExtension',
         ],
     },
     classifiers=[

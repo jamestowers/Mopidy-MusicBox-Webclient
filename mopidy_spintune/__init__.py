@@ -5,13 +5,13 @@ import os
 from mopidy import config, ext
 
 
-__version__ = '1.0.4'
+__version__ = '0.1'
 
 
 class MusicBoxExtension(ext.Extension):
 
-    dist_name = 'Mopidy-MusicBox-Webclient'
-    ext_name = 'musicbox_webclient'
+    dist_name = 'Mopidy-Spintune'
+    ext_name = 'spintune'
     version = __version__
 
     def get_default_config(self):
